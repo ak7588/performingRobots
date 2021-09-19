@@ -36,7 +36,15 @@ Before this working version, there were many fails. Here is a short depiction of
 
 (Failed Version #2: a version of Bob that can't properly move because of wrong code)
 
-After a while of trying to time and delay different motors, I was able to come up with this code for Bob to move:
+I initially thought that if I have a code that will enable all of the four motor pins, then it will move in the same direction. However, I discovered that if I have something like the code below, it will actually not move at all.
+
+````
+ digitalWrite(in4Pin, LOW);
+ digitalWrite(in3Pin, HIGH);
+ digitalWrite(in1Pin, LOW);
+ digitalWrite(in2Pin, HIGH);
+````
+My next thought was to enable a timer so that it moves back and forth. I discovered the millis() function and was able to implement it in the following brute-force approach. After a while of trying to time and delay different motors, I was able to come up with this code for Bob to move:
 
 ````
   // move in one direction before 7 seconds passed
@@ -75,3 +83,7 @@ After a while of trying to time and delay different motors, I was able to come u
       }
   }
 ````
+
+Upon reflecting on this final version, I, of course, hope that soon enough Bob will learn more complex movements with a much cleaner code. Until then, Bob is just learning how to drive!
+
+![](performingRobot.gif)
