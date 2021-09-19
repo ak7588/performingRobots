@@ -17,7 +17,9 @@ Now let's dive into the process. Before having the final version of my robot, I 
 Take a look at some of the failed attempts to build Bob:
 
 ![](failedAttempt.gif)
+
 (a version of Bob with the unsustainable physique)
 
 ![](failedAttempt2.gif)
+
 (a version of Bob that can't properly move)
