@@ -26,6 +26,6 @@ Take a look at some of the failed attempts to build Bob:
 
 Finally, after tinkering around with Bob's physique, I was able to build this final look:
 
-![](bob.JPG =300x400)
+![](bob.JPG){:height="400px" width="300px"}
 
 You are probably wondering how the wheels work -- I connected them with a piece of cardbox that I glued to the plastic part of the motor. I was too scared to glue motors directly as it could damage them, so cardbox seemed like a quick workaround. This version of wheel placement came after the first unsuccessful attempt to build Bob (see example above).
