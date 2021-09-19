@@ -18,14 +18,14 @@ Take a look at some of the failed attempts to build Bob:
 
 ![](failedAttempt.gif)
 
-(a version of Bob with the unsustainable physique)
+(Failed Version #1: a version of Bob with the unsustainable physique)
 
 ![](failedAttempt2.gif)
 
-(a version of Bob that can't properly move)
+(Failed Version #2: a version of Bob that can't properly move because of wrong code)
 
 Finally, after tinkering around with Bob's physique, I was able to build this final look:
 
 <img src="https://github.com/ak7588/performingRobots/blob/main/september20/bob.JPG" width="300">
 
-You are probably wondering how the wheels work -- I connected them with a piece of cardbox that I glued to the plastic part of the motor. I was too scared to glue motors directly as it could damage them, so cardbox seemed like a quick workaround. This version of wheel placement came after the first unsuccessful attempt to build Bob (see example above).
+You are probably wondering how the wheels work -- I connected them with a piece of cardbox that I glued to the plastic part of the motor. I was too scared to glue motors directly as it could damage them, so cardbox seemed like a quick workaround. This version of wheel placement came after the first unsuccessful attempt to build Bob (see Failed Version #1 above).
