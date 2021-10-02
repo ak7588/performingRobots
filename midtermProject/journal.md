@@ -6,7 +6,13 @@ Expressive robot that can move with two motors, change its eye color, move its h
 
 ## October 2nd, 2021:
 - Started to work on the project: developed the idea, build a simple circuit with two motors, two servos, and the neopixel board.
-- Broke my second Arduino, so will have to replace.
+
+![](images/starting.JPG)
+![](images/eyes.gif)
+
+- Broke my second Arduino, so will have to replace. Here's a video I took just before it broke:
+
+![](images/beforeTheStorm.gif)
 
 Actionable items for next time:
 - Get a working Arduino.
