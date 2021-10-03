@@ -19,3 +19,15 @@ Actionable items for next time:
 - Get a working Arduino.
 - Connect the audio/sound sensor.
 - Write simple code to test the robot expressions.
+
+
+## October 3rd, 2021:
+- Made my Arduino work (there was a short circuit!)
+- Connected the audio buzzer and tested basic music notes playing
+- (Re)connected servo motors and made sure they work
+- Started to write some basic code for the robot to execute (HUGE milestone: debugged the "delay()" issue and wrote code with millis() instead)
+
+Actionable items for next time:
+- Code the neopixel board
+- Right now all of the devices work in separate, next time I want to make sure when they all work together nothing breaks
+- Start working on the robot appearance if the code is ok
