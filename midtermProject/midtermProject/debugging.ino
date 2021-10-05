@@ -70,7 +70,7 @@ void setup() {
 
     // we only play the note for 90% of the duration, leaving 10% as a pause
     tone(buzzer, melody[thisNote], noteDuration*0.9);
-
+    // delay(noteDuration) instead here's millis 👇
     if (currentMillis - previousMillis >= noteDuration) {
       previousMillis = currentMillis;
       noTone(buzzer);
