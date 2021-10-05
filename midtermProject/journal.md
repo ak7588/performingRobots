@@ -31,3 +31,5 @@ Actionable items for next time:
 - Code the neopixel board
 - Right now all of the devices work in separate, next time I want to make sure when they all work together nothing breaks
 - Start working on the robot appearance if the code is ok
+
+![](images/progress.gif)
