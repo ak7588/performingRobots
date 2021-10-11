@@ -17,6 +17,8 @@ RF24 radio(CEPIN, CSNPIN);
 Sweeper left(10);
 Sweeper right(10);
 MelodyPlayer myTune(melodyPin);
+int prevState = 0;
+bool flag = false;
 
 const int noteDurations[] = {
   4, 8, 8, 4, 4, 4, 4, 4
@@ -55,7 +57,7 @@ void loop() {
     switch (data) {
         break;
       case 0x01:
-        RGB_color(0, 255, 0);
+        RGB_color(255, 0, 0);
         Serial.println("turning right");
         digitalWrite(rightDirPin, LOW);
         analogWrite(rightPWMPin, 200);
@@ -66,19 +68,19 @@ void loop() {
         right.Update();
         break;
       case 0x02:
-        RGB_color(255, 0, 0);
+        RGB_color(255, 255, 0);
         myTune.startPlaying();
         myTune.update();
         left.Detach();
         right.Detach();
         Serial.println("forward");
-        digitalWrite(rightDirPin, HIGH);
-        analogWrite(rightPWMPin, 0);
-        digitalWrite(leftDirPin, LOW);
-        analogWrite(leftPWMPin, 255);
+        digitalWrite(rightDirPin, LOW);
+        analogWrite(rightPWMPin, 255);
+        digitalWrite(leftDirPin, HIGH);
+        analogWrite(leftPWMPin, 0);
         break;
       case 0x04:
-        RGB_color(0, 255, 0);
+        RGB_color(255, 0, 0);
         myTune.stopPlaying();
         left.Attach(A3);
         right.Attach(A4);

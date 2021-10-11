@@ -22,15 +22,56 @@ const int SPKRPIN = 9;
 
 // In some future version, perhaps the notes and durations could be provided in the constructor
 
-const int MELODYLENGTH = 8;
+//const int MELODYLENGTH = 8;
+
 // notes in the melody:
-int melody[MELODYLENGTH] = {
-  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+int melody[] = {
+//  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+  NOTE_F4, NOTE_C4, NOTE_A3, NOTE_C4, NOTE_A3, NOTE_F4,
+  NOTE_F4, NOTE_C4, NOTE_A3, NOTE_C4, NOTE_A3, NOTE_F4,
+
+  NOTE_E4, NOTE_C4, NOTE_G3, NOTE_C4, NOTE_G3, NOTE_E4,
+  NOTE_E4, NOTE_C4, NOTE_G3, NOTE_C4, NOTE_G3, NOTE_E4,
+
+  NOTE_E4, NOTE_CS4, NOTE_A3, NOTE_CS4, NOTE_A3, NOTE_E4,
+  NOTE_E4, NOTE_CS4, NOTE_A3, NOTE_CS4, NOTE_A3, NOTE_E4,
+
+  NOTE_D4, NOTE_E4, NOTE_F4, NOTE_A4, NOTE_G4, NOTE_A4, NOTE_C4,
+  NOTE_D4, NOTE_E4, NOTE_F4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_G4, NOTE_F4,
+
+  NOTE_F4, NOTE_F4, NOTE_F4, NOTE_A4, NOTE_A4, NOTE_G4, NOTE_F4,
+  NOTE_A4, NOTE_A4, NOTE_A4, NOTE_G4, NOTE_A4, NOTE_G4, NOTE_F4,
+  NOTE_F4, NOTE_F4, NOTE_F4, NOTE_A4, NOTE_A4, NOTE_G4, NOTE_F4,
+
+  NOTE_A4, NOTE_A4, NOTE_A4, NOTE_CS5, NOTE_CS5, NOTE_CS5,
+  NOTE_F4, NOTE_F4, NOTE_F4, NOTE_A4, NOTE_A4, NOTE_G4, NOTE_F4
 };
+
+
 // note values: 4 = quarter note, 8 = eighth note, etc.:
-int noteValues[MELODYLENGTH] = {
-  4, 8, 8, 4, 4, 4, 4, 4
+int noteValues[] = {
+//  4, 8, 8, 4, 4, 4, 4, 4
+  8,8,8,8,8,8,
+  8,8,8,8,8,8,
+
+  8,8,8,8,8,8,
+  8,8,8,8,8,8,
+
+  8,8,8,8,8,8,
+  8,8,8,8,8,8,
+
+  2, 3, 3, 4, 4, 2, 2,
+  2, 3, 3, 4, 4, 2, 2, 2,
+
+  8, 8, 8, 8, 8, 8, 8,
+  8, 8, 8, 8, 8, 8, 8,
+  8, 8, 8, 8, 8, 8, 8,
+
+  3, 3, 3, 3, 3, 2,
+  3, 3, 3, 3, 3, 3, 3
 };
+
+const int MELODYLENGTH = sizeof(melody)/sizeof(melody[0]);
 
 class MelodyPlayer
 {
