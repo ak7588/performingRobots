@@ -33,3 +33,28 @@ Actionable items for next time:
 - Start working on the robot appearance if the code is ok
 
 ![](images/progress.gif)
+
+## October 5th, 2021:
+- Soldered and connected the RGB LED to the circuit. Soldering was needed so that it can be accessed form wires outside of the breadboard to reach the robot's eye
+- Coded the RGB LED to map for the robot's state (happy or angry)
+- Coded the buzzer to work without delay
+
+Actionable items for next time:
+- Connect the servo motors and code
+- Continue working on basic design
+
+## October 7th, 2021:
+- RGB, buzzer, and motor work altogether 🎉
+- Connected servo motors and made them work without delay
+- Started working on the cardbox appearance
+- Update: motors stopped working at the same time, only one works at a time
+
+Actionable items for next time:
+- Figure out what is wrong with the motors or the battery. Tried to tweak them a few times -- each works well by itself, but not at the same time.
+- Continue working on the appearance
+
+## October 10th, 2021:
+- Fixed the motors by replacing the battery
+
+Actionable items for next time:
+- Advance the code to perform a sequence without needing to re-press buttons
