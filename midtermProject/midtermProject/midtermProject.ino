@@ -17,8 +17,9 @@ RF24 radio(CEPIN, CSNPIN);
 Sweeper left(10);
 Sweeper right(10);
 MelodyPlayer myTune(melodyPin);
-int prevState = 0;
-bool flag = false;
+
+bool twoIsPressed = false;
+bool oneIsPressed = false;
 
 const int noteDurations[] = {
   4, 8, 8, 4, 4, 4, 4, 4
@@ -53,51 +54,21 @@ void loop() {
   {
     int data;
     radio.read(&data, sizeof(data));  //Reading the data
-    //Serial.println(data);
     switch (data) {
         break;
       case 0x01:
-        RGB_color(255, 0, 0);
-        Serial.println("turning right");
-        digitalWrite(rightDirPin, LOW);
-        analogWrite(rightPWMPin, 200);
-        myTune.stopPlaying();
-        left.Attach(A3);
-        right.Attach(A4);
-        left.Update();
-        right.Update();
+        oneIsPressed = true;
+        twoIsPressed = false;
         break;
       case 0x02:
-        RGB_color(255, 255, 0);
-        myTune.startPlaying();
-        myTune.update();
-        left.Detach();
-        right.Detach();
-        Serial.println("forward");
-        digitalWrite(rightDirPin, LOW);
-        analogWrite(rightPWMPin, 255);
-        digitalWrite(leftDirPin, HIGH);
-        analogWrite(leftPWMPin, 0);
+        twoIsPressed = true;
+        oneIsPressed = false;
         break;
       case 0x04:
-        RGB_color(255, 0, 0);
-        myTune.stopPlaying();
-        left.Attach(A3);
-        right.Attach(A4);
-        left.Update();
-        right.Update();
-        Serial.println("turning left");
-        digitalWrite(leftDirPin, HIGH);
-        analogWrite(leftPWMPin, 50);
+        oneIsPressed = false;
+        twoIsPressed = false;
         break;
       default:
-        RGB_color(LOW, LOW, LOW);
-        Serial.println("invalid code");
-        stop();
-        left.Detach();
-        right.Detach();
-        digitalWrite(rightDirPin, LOW);
-        digitalWrite(rightPWMPin, LOW);
         break;
     }
   } else {
@@ -105,6 +76,29 @@ void loop() {
     Serial.println("stop");
     stop();
   }
+
+  if (twoIsPressed) {
+    RGB_color(255, 255, 0);
+    myTune.startPlaying();
+    myTune.update();
+    left.Detach();
+    right.Detach();
+    Serial.println("forward");
+    digitalWrite(rightDirPin, LOW);
+    analogWrite(rightPWMPin, 255);
+    digitalWrite(leftDirPin, HIGH);
+    analogWrite(leftPWMPin, 0);  
+  } else if (oneIsPressed) {
+    RGB_color(255, 0, 0);
+    Serial.println("turning right");
+    digitalWrite(rightDirPin, LOW);
+    analogWrite(rightPWMPin, 200);
+    myTune.stopPlaying();
+    left.Attach(A3);
+    right.Attach(A4);
+    left.Update();
+    right.Update();
+  } 
   delay(5);
 }
 
