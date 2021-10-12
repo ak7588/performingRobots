@@ -55,6 +55,13 @@ Actionable items for next time:
 
 ## October 10th, 2021:
 - Fixed the motors by replacing the battery
+- Final appearance changes
 
 Actionable items for next time:
 - Advance the code to perform a sequence without needing to re-press buttons
+
+## October 12th, 2021:
+- Final code edits
+- Recording the performance
+
+Happy watching!
