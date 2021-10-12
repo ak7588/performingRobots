@@ -30,7 +30,7 @@ Using the second Arduino that sends a radio signal, it is possible to trigger th
 
 ## Process and Challenges
 
-A full description of the process and technical challenges is available in my [journal here.](github.com/ak7588/performingRobots/midtermProject/journal.md)
+A full description of the process and technical challenges is available in my [journal here.](https://github.com/ak7588/performingRobots/blob/main/midtermProject/journal.md)
 
 ## Final Reflections
 
