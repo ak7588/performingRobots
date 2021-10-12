@@ -3,6 +3,7 @@
 Hello there! Welcome to my little performance, curated by Amina & Two Robots.
 
 ![](images/finalLook.jpeg)
+[Full video recording is available here]()
 
 ## Introduction
 
@@ -26,7 +27,9 @@ Using the second Arduino that sends a radio signal, it is possible to trigger th
 
 ## Process and Challenges
 
-A full description of the process and technical challenges is available in my [journal here](github.com/ak7588/performingRobots/midtermProject/journal.md)
+A full description of the process and technical challenges is available in my [journal here.](github.com/ak7588/performingRobots/midtermProject/journal.md)
 
 ## Final Reflections
+
+As someone who has never programmed/made/engineered a moving robot before, to say that I am impressed with what I've built is an understatement! I am surprised and amazed with what simple tools like cardboard, a few motors, and plastic handles can do. Most importantly, I feel like I was able to learn and practice essential hardware/software practices like watching out for short circuits, frequently checking the battery, and writing clean code for the Arduino.
 
