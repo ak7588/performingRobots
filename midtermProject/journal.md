@@ -53,6 +53,8 @@ Actionable items for next time:
 - Figure out what is wrong with the motors or the battery. Tried to tweak them a few times -- each works well by itself, but not at the same time.
 - Continue working on the appearance
 
+![](images/oct7.gif)
+
 ## October 10th, 2021:
 - Fixed the motors by replacing the battery
 - Final appearance changes
@@ -65,3 +67,4 @@ Actionable items for next time:
 - Recording the performance
 
 Happy watching!
+
