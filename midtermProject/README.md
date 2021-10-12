@@ -2,7 +2,8 @@
 
 Hello there! Welcome to my little performance, curated by Amina & Two Robots.
 
-[Full video recording is available here]()
+[Full video recording is available here](https://youtu.be/gi5nFjThfcc)
+
 ![](images/finalLook.jpeg)
 
 ## Introduction
