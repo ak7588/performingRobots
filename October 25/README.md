@@ -4,6 +4,7 @@ For this assignment, I want to choose a robot from Isaac Asimov's "I, Robot". Na
 1.  A robot shall not harm a human, or by inaction allow a human to come to harm.
 2.  A robot shall obey any instruction given to it by a human.
 3.  A robot shall avoid actions or situations that could cause it to come to harm itself.
+
 Robbie's top quality from the story is that he doesn't look or act like a typical robot, "he is not a machine...he was a friend" (Asimov 11). The story ends when Robbie saves Gloria's life from a tractor incident. 
 
 ## - How will you construct the actor to create the role?
