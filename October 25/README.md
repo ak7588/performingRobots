@@ -13,7 +13,7 @@ Given Robbie's qualities, it would make sense to give him anthropomorphic form t
 
 ## - What technical features will the actor need?
 
-Robbie will have the ability to move his legs and hands. He will have to be expressive to show empathy and other emotions. And he has to be able to react fast in urgent situations to be able to save children that he is taking care of.
+Robbie will have the ability to move his legs and arms. He will have to be expressive to show empathy and other emotions. And he has to be able to react fast in urgent situations to be able to save children that he is taking care of.
 
 ## - How will you decorate or dress the actor for best effect?
 
