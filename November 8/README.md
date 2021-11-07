@@ -10,4 +10,4 @@ My idea was to put a play on the first chapter of "I, Robot" by A. Asimov. In th
 
 Utilizing the idea of continuity and interaction from this weekend's reading, I think all of the robots should be reactive to each other's presense, though I don't yet know how exactly this will come to live. Timed responses will also be of an advantage for the robotic play.
 
-![https://github.com/ak7588/performingRobots/blob/main/November%208/IMG_E7E7C18BDBB6-1.jpeg]()
+![](https://github.com/ak7588/performingRobots/blob/main/November%208/IMG_E7E7C18BDBB6-1.jpeg)
