@@ -9,3 +9,5 @@ Play idea: when thinking of the proposal, I immediately started to think of play
 My idea was to put a play on the first chapter of "I, Robot" by A. Asimov. In this play, there are two parents and a factory robot/machine that is of a potential danger to the girl. So a Boston Dynamic robodog can play the dangerous machine in this case, and then my own robots comes to save the girl from the danger.
 
 Utilizing the idea of continuity and interaction from this weekend's reading, I think all of the robots should be reactive to each other's presense, though I don't yet know how exactly this will come to live. Timed responses will also be of an advantage for the robotic play.
+
+![https://github.com/ak7588/performingRobots/blob/main/November%208/IMG_E7E7C18BDBB6-1.jpeg]()
