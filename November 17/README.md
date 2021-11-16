@@ -1,3 +1,5 @@
+# Notes and Questions on Digital Theatre by Nadja Masura (Chapter 6 "The ‘Other’ Actor")
+
 ````"It may be that in some future time that all actors will be replaced by androids and hologram projections and human emotions are regularly simulated by computer programs for our viewing pleasure." (131)````
 
 With the development of technical alogrithms and animation software, I actually do think that computer agents will take a big place in the future of cinema, if not already. However, it does not make sense to eliminate human actors completely, as there is something to human presense that makes us appreciate art.
