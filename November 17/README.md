@@ -1,0 +1,1 @@
+"It may be that in some future time that all actors will be replaced by androids and hologram projections and human emotions are regularly simulated by computer programs for our viewing pleasure." (131)
