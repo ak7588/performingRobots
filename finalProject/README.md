@@ -67,4 +67,4 @@ Scene 5 (find snow white asleep)
 
 Salama’s Design:
 
-![robot.png]()
+![robot.png](https://github.com/ak7588/performingRobots/blob/main/finalProject/robot.png)
