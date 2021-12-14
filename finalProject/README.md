@@ -3,6 +3,8 @@ More information in this doc: https://docs.google.com/document/d/15eOo5TBToQXe0u
 # Robot Design - Happy and Bashful
 ## Amina and Salama
 
+![group pic](https://github.com/ak7588/performingRobots/blob/main/finalProject/groupPic.JPG)
+
 ### Dividing the robot
 Part 1 (head): 
 - Neopixel
